@@ -1,4 +1,5 @@
 /*BEGIN PS4 Controller Styling*/
+
 .controller.ds4 {
     background: url(ps4-assets/base.svgz);
     height: 598px;
@@ -92,7 +93,10 @@
     background: url(ps4-assets/meta.svgz) no-repeat center;
 }
 
+
 /*Not needed, but I like keeping them here for posterity*/
+
+
 /*.ds4 .quadrant{
 position: absolute;
 background: url(ps4-assets/player-n.svgz);
@@ -113,6 +117,7 @@ background-position: 0 -49px;
 .ds4 .p3{
 background-position: 0 -70px;
 }*/
+
 .ds4 .arrows {
     position: absolute;
     width: 352px;
@@ -121,14 +126,16 @@ background-position: 0 -70px;
     left: 227px;
 }
 
-.ds4 .back, .ds4 .start {
+.ds4 .back,
+.ds4 .start {
     background: url(ps4-assets/start.svgz);
     width: 28px;
     height: 46px;
     opacity: 0;
 }
 
-.ds4 .back.pressed, .ds4 .start.pressed {
+.ds4 .back.pressed,
+.ds4 .start.pressed {
     /* background-position-y: -21px; */
     /* margin-top: 2px; */
     opacity: 1;
@@ -233,12 +240,14 @@ background-position: 0 -70px;
     position: absolute;
 }
 
-.ds4 .face.up, .ds4 .face.down {
+.ds4 .face.up,
+.ds4 .face.down {
     width: 36px;
     height: 52px;
 }
 
-.ds4 .face.left, .ds4 .face.right {
+.ds4 .face.left,
+.ds4 .face.right {
     width: 52px;
     height: 36px;
 }
@@ -275,5 +284,6 @@ background-position: 0 -70px;
 .ds4.half {
     margin-top: -300px;
 }
+
 
 /*END PS4 Controller Styling*/
