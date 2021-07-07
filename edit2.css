@@ -1,0 +1,7 @@
+.controller.edit {
+    background: url(https://teamxeno-rl.github.io/Controller/skins/xbox.png);
+}
+
+.edit .p1 {
+    display: none;
+}
